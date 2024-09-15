@@ -7,8 +7,9 @@ import { FaArrowCircleLeft, FaArrowCircleRight } from 'react-icons/fa';
 // Exemple de données pour les slides
 const slides = [
     { image: '/assets/images/ch3.jpg' },
-    { image: '/assets/images/ch3.jpg' },
-    { image: '/assets/images/ch3.jpg' },
+    { image: '/assets/images/666.jpg' },
+    { image: '/assets/images/S3.jpg' },
+    { image: '/assets/images/7777.jpg' },
 ];
 
 const Slider = () => {

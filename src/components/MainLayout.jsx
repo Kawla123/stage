@@ -6,11 +6,11 @@ export function DefaultHeader() {
         <Navbar>
             <NavbarBrand as={Link} href="/" active className="flex items-center" >
             <Image 
-                    src="/assets/images/logo1.png" // Replace with your logo path
+                    src="/assets/images/logo1.png" 
                     alt="logo1"
-                    width={30} // Set the width of your logo
-                    height={30} // Set the height of your logo
-                    className="mr-2" // Adds some space between the logo and text
+                    width={30} 
+                    height={30} 
+                    className="mr-2" 
                 />
                 <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">Captur</span>
             </NavbarBrand>
@@ -21,7 +21,7 @@ export function DefaultHeader() {
                 </NavbarLink>
              
                 <NavbarLink as={Link} href='/test'>Gallery</NavbarLink>
-                <NavbarLink as={Link} href='/slider'>Works</NavbarLink>
+                <NavbarLink as={Link} href='/contact'>Works</NavbarLink>
                 <NavbarLink as={Link} href='/about'>Contact</NavbarLink>
                
 

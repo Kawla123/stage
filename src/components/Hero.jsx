@@ -5,7 +5,7 @@ export const Hero = () => {
   return (
   
     <section className="text-gray-900 dark:bg-gray-900 dark:text-white">
-    <div className="flex items-center justify-center h-screen mb-12 bg-fixed bg-center bg-cover costom-img bottom-0 bg-black/70 z-[2]">
+    <div className="flex items-center justify-center h-screen mb-12 bg-fixed bg-center bg-cover costom-img bottom-0 bg-black/70 z-[2] opacity-90">
     
   
     <div className="px-4 mx-auto max-w-screen-xl text-center py-24 lg:py-56">
@@ -14,7 +14,7 @@ export const Hero = () => {
       <div className="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0">
         
          
-        <a href="#" className="inline-flex justify-center hover:text-gray-900 items-center py-3 px-5 sm:ms-4 text-base font-medium text-center  rounded-lg border text-gray-800 hover:bg-gray-100 focus:ring-4 focus:ring-gray-400 dark:text-white">
+        <a href="/reservation" className="inline-flex justify-center hover:text-gray-900 items-center py-3 px-5 sm:ms-4 text-base font-medium text-center  rounded-lg border text-gray-800 hover:bg-gray-100 focus:ring-4 focus:ring-gray-400 dark:text-white">
           Book
         </a>  
         </div>
